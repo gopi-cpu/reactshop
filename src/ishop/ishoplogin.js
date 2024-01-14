@@ -27,7 +27,7 @@ export default function Login(){
         }
     })
     useEffect(() =>{
-        axios.get("http://localhost:4000/getusers")
+        axios.get("https://mernbackendddd.onrender.com/getusers")
         .then(response =>{
           setuser(response.data);
         })
